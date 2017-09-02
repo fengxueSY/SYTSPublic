@@ -193,4 +193,5 @@
  @return 时间
  */
 +(NSString *)getTimeStrWithSecond:(long long)times;
+
 @end

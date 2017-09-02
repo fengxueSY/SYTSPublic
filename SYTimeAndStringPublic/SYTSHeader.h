@@ -11,5 +11,7 @@
 
 #import "SYStringPublic.h"
 #import "SYTimePublic.h"
+#import "NSDate+SYDateCategory.h"
+#import "NSDateFormatter+SYDateFormatterCategory.h"
 
 #endif /* SYTSHeader_h */

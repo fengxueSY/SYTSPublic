@@ -18,8 +18,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    NSString * nowTime = [SYTimePublic getCurrentTime];
-    NSLog(@"当前时间为：  %@",nowTime);
+    NSDate * nowTime = [NSDate date];
+    
+    NSLog(@"当前时间为：  %ld",(long)[nowTime nthWeekday]);
 }
 
 

@@ -17,6 +17,8 @@
 		2F28252E1F4BC3FD008BF3D2 /* SYTSPublicUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F28252D1F4BC3FD008BF3D2 /* SYTSPublicUITests.m */; };
 		2F28253E1F4BC43F008BF3D2 /* SYTimePublic.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F28253D1F4BC43F008BF3D2 /* SYTimePublic.m */; };
 		2F2825411F4BC452008BF3D2 /* SYStringPublic.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2825401F4BC452008BF3D2 /* SYStringPublic.m */; };
+		2F5EC4531F5A5F0E00520393 /* NSDate+SYDateCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5EC4521F5A5F0E00520393 /* NSDate+SYDateCategory.m */; };
+		2F5EC4561F5A5F7F00520393 /* NSDateFormatter+SYDateFormatterCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5EC4551F5A5F7F00520393 /* NSDateFormatter+SYDateFormatterCategory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,10 @@
 		2F28253F1F4BC452008BF3D2 /* SYStringPublic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYStringPublic.h; sourceTree = "<group>"; };
 		2F2825401F4BC452008BF3D2 /* SYStringPublic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYStringPublic.m; sourceTree = "<group>"; };
 		2F2825421F4BC46C008BF3D2 /* SYTSHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYTSHeader.h; sourceTree = "<group>"; };
+		2F5EC4511F5A5F0E00520393 /* NSDate+SYDateCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+SYDateCategory.h"; sourceTree = "<group>"; };
+		2F5EC4521F5A5F0E00520393 /* NSDate+SYDateCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+SYDateCategory.m"; sourceTree = "<group>"; };
+		2F5EC4541F5A5F7F00520393 /* NSDateFormatter+SYDateFormatterCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+SYDateFormatterCategory.h"; sourceTree = "<group>"; };
+		2F5EC4551F5A5F7F00520393 /* NSDateFormatter+SYDateFormatterCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+SYDateFormatterCategory.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +162,10 @@
 				2F28253F1F4BC452008BF3D2 /* SYStringPublic.h */,
 				2F2825401F4BC452008BF3D2 /* SYStringPublic.m */,
 				2F2825421F4BC46C008BF3D2 /* SYTSHeader.h */,
+				2F5EC4511F5A5F0E00520393 /* NSDate+SYDateCategory.h */,
+				2F5EC4521F5A5F0E00520393 /* NSDate+SYDateCategory.m */,
+				2F5EC4541F5A5F7F00520393 /* NSDateFormatter+SYDateFormatterCategory.h */,
+				2F5EC4551F5A5F7F00520393 /* NSDateFormatter+SYDateFormatterCategory.m */,
 			);
 			path = SYTimeAndStringPublic;
 			sourceTree = "<group>";
@@ -300,7 +310,9 @@
 				2F2825101F4BC3FD008BF3D2 /* ViewController.m in Sources */,
 				2F28250D1F4BC3FD008BF3D2 /* AppDelegate.m in Sources */,
 				2F2825411F4BC452008BF3D2 /* SYStringPublic.m in Sources */,
+				2F5EC4561F5A5F7F00520393 /* NSDateFormatter+SYDateFormatterCategory.m in Sources */,
 				2F28250A1F4BC3FD008BF3D2 /* main.m in Sources */,
+				2F5EC4531F5A5F0E00520393 /* NSDate+SYDateCategory.m in Sources */,
 				2F28253E1F4BC43F008BF3D2 /* SYTimePublic.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -541,6 +553,7 @@
 				2F2825341F4BC3FD008BF3D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2F2825351F4BC3FD008BF3D2 /* Build configuration list for PBXNativeTarget "SYTSPublicTests" */ = {
 			isa = XCConfigurationList;
@@ -549,6 +562,7 @@
 				2F2825371F4BC3FD008BF3D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2F2825381F4BC3FD008BF3D2 /* Build configuration list for PBXNativeTarget "SYTSPublicUITests" */ = {
 			isa = XCConfigurationList;
@@ -557,6 +571,7 @@
 				2F28253A1F4BC3FD008BF3D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
